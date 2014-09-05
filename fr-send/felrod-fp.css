@@ -1,0 +1,318 @@
+@font-face {
+  font-family: Miama;
+  src: url("Miama.otf");
+}
+.container {
+  font-family: Miama;
+  text-shadow: black 0 1px 0;
+  text-align: center;
+  font-size: 1.7em;
+}
+.image-wrap {
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+}
+/* Pic mixin */
+/* mixin end */
+#ana {
+  margin: 1em 0;
+  position: relative;
+  display: inline-block;
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/ana.JPG") no-repeat center center;
+  width: 100px;
+  height: 100px;
+  /* Animation to make jump slower => bounce effect */
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  /* For gigles make the cursor a hand */
+  cursor: pointer;
+}
+#ana:hover {
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/ana-silly.JPG") no-repeat center center;
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+#brett {
+  margin: 1em 0;
+  position: relative;
+  display: inline-block;
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/brett.JPG") no-repeat center center;
+  width: 100px;
+  height: 100px;
+  /* Animation to make jump slower => bounce effect */
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  /* For gigles make the cursor a hand */
+  cursor: pointer;
+}
+#brett:hover {
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/brett-silly.JPG") no-repeat center center;
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+#carly {
+  margin: 1em 0;
+  position: relative;
+  display: inline-block;
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/carly.JPG") no-repeat center center;
+  width: 100px;
+  height: 100px;
+  /* Animation to make jump slower => bounce effect */
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  /* For gigles make the cursor a hand */
+  cursor: pointer;
+}
+#carly:hover {
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/carly-silly.JPG") no-repeat center center;
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+#ellie {
+  margin: 1em 0;
+  position: relative;
+  display: inline-block;
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/ellie.JPG") no-repeat center center;
+  width: 100px;
+  height: 100px;
+  /* Animation to make jump slower => bounce effect */
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  /* For gigles make the cursor a hand */
+  cursor: pointer;
+}
+#ellie:hover {
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/ellie-silly.JPG") no-repeat center center;
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+#jake {
+  margin: 1em 0;
+  position: relative;
+  display: inline-block;
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/jake.JPG") no-repeat center center;
+  width: 100px;
+  height: 100px;
+  /* Animation to make jump slower => bounce effect */
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  /* For gigles make the cursor a hand */
+  cursor: pointer;
+}
+#jake:hover {
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/jake-silly.JPG") no-repeat center center;
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+#liam {
+  margin: 1em 0;
+  position: relative;
+  display: inline-block;
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/liam.JPG") no-repeat center center;
+  width: 100px;
+  height: 100px;
+  /* Animation to make jump slower => bounce effect */
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  /* For gigles make the cursor a hand */
+  cursor: pointer;
+}
+#liam:hover {
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/liam-silly.JPG") no-repeat center center;
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+#mat {
+  margin: 1em 0;
+  position: relative;
+  display: inline-block;
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/mat.JPG") no-repeat center center;
+  width: 100px;
+  height: 100px;
+  /* Animation to make jump slower => bounce effect */
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  /* For gigles make the cursor a hand */
+  cursor: pointer;
+}
+#mat:hover {
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/mat-silly.JPG") no-repeat center center;
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+#maya {
+  margin: 1em 0;
+  position: relative;
+  display: inline-block;
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/maya.JPG") no-repeat center center;
+  width: 100px;
+  height: 100px;
+  /* Animation to make jump slower => bounce effect */
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  /* For gigles make the cursor a hand */
+  cursor: pointer;
+}
+#maya:hover {
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/maya-silly.JPG") no-repeat center center;
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+#molly {
+  margin: 1em 0;
+  position: relative;
+  display: inline-block;
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/molly.JPG") no-repeat center center;
+  width: 100px;
+  height: 100px;
+  /* Animation to make jump slower => bounce effect */
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  /* For gigles make the cursor a hand */
+  cursor: pointer;
+}
+#molly:hover {
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/molly-silly.JPG") no-repeat center center;
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+#daniel {
+  margin: 1em 0;
+  position: relative;
+  display: inline-block;
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/daniel.JPG") no-repeat center center;
+  width: 100px;
+  height: 100px;
+  /* Animation to make jump slower => bounce effect */
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  /* For gigles make the cursor a hand */
+  cursor: pointer;
+}
+#daniel:hover {
+  background: url("http://people.reed.edu/~bbeutell/fel-rod/imgs/daniel-silly.JPG") no-repeat center center;
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+#felrod-topsix {
+  padding: .2em;
+  display: block;
+  float: left;
+  width: 2em;
+  margin-left: 8px;
+  background-color: #000;
+  font-family: inherit;
+  color: #f5f5f5;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 2em;
+  border: 1px solid rgba(0, 0, 0, 0.55);
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+  -webkit-box-shadow: 0px 0px 5px #c8c8c8;
+  box-shadow: 0px 0px 5px #c8c8c8;
+  -moz-box-shadow: 0px 0px 5px #c8c8c8;
+}
+.char0,
+.char1,
+.char2,
+.char3,
+.char4,
+.char5,
+.char6,
+.char7,
+.char8,
+.char9,
+.char10,
+.char11 {
+  padding: .15em;
+  display: block;
+  float: left;
+  width: 1.2em;
+  margin-left: .2em;
+  background-color: #000;
+  font-family: inherit;
+  color: #f5f5f5;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  border: 1px solid rgba(0, 0, 0, 0.55);
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+  -webkit-box-shadow: 0px 0px 5px #c8c8c8;
+  box-shadow: 0px 0px 5px #c8c8c8;
+  -moz-box-shadow: 0px 0px 5px #c8c8c8;
+}
+.char0,
+.char1,
+.char2,
+.char3,
+.char4,
+.char5,
+.char6,
+.char7,
+.char8,
+.char9,
+.char10,
+.char11 {
+  margin: 1em 0;
+  -webkit-transition: background-color 0.25s linear;
+  -moz-transition: background-color 0.25s linear;
+  -o-transition: background-color 0.25s linear;
+  transition: background-color 0.25s linear;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  cursor: pointer;
+}
+.char0:hover,
+.char1:hover,
+.char2:hover,
+.char3:hover,
+.char4:hover,
+.char5:hover,
+.char6:hover,
+.char7:hover,
+.char8:hover,
+.char9:hover,
+.char10:hover,
+.char11:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}

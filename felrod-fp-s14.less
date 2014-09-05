@@ -1,0 +1,248 @@
+@font-face {
+    font-family: Miama;
+    src: url("Miama.otf");
+
+}
+
+.container {
+  font-family:Miama;
+  text-shadow: black 0 1px 0;
+  text-align:center;
+  font-size: 1.7em;
+}
+
+#fancy-fellatio {}
+
+#sub-head {}
+.circle-table {}
+
+.circle-table .circle-img {}
+
+.circle-table .circle-img:hover {}
+
+.circle-table .table-spacer {}
+
+.image-wrap {
+
+    -webkit-border-radius: 50em;
+    -moz-border-radius: 50em;
+    border-radius: 50em;
+}
+
+
+
+/* Pic mixin */
+.general-pic-styles(@person) {
+
+    @url: "@{root}@{face}@{suffix}";
+    @root: "http://people.reed.edu/~bbeutell/fel-rod/imgs/";
+    @face: @person;
+    @silly: "-silly";
+    @suffix: ".JPG";
+
+    margin: 1em 0;
+
+    position:relative; 
+    display:inline-block; 
+    background:url(@url) no-repeat center center; 
+    width: 100px; 
+    height: 100px;
+
+    /* Animation to make jump slower => bounce effect */
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+
+    /* For gigles make the cursor a hand */
+    cursor:pointer;
+}
+
+.general-pic-styles-hover(@person) {
+
+    @sillyurl: "@{root}@{face}@{sillyfix}";
+    @root: "http://people.reed.edu/~bbeutell/fel-rod/imgs/";
+    @face: @person;
+    @sillyfix: "-silly.JPG";
+
+    background:url(@sillyurl) no-repeat center center; 
+    margin-top: .5em;
+    margin-bottom: 1.5em;
+
+}
+/* mixin end */
+
+
+#ana {
+	@person: "ana";
+       .general-pic-styles(@person);
+}
+#ana:hover {
+	   @person: "ana";
+	     .general-pic-styles-hover(@person);
+}
+#brett {
+       @person: "brett";
+       .general-pic-styles(@person);
+}
+#brett:hover {
+	     @person: "brett";
+	     .general-pic-styles-hover(@person);
+}
+
+#carly {
+       @person: "carly";       
+       .general-pic-styles(@person);
+}
+#carly:hover {
+	     @person: "carly";
+	     .general-pic-styles-hover(@person);
+}
+
+#ellie {
+       @person: "ellie";
+       .general-pic-styles(@person);
+}
+#ellie:hover {
+	     @person: "ellie";
+	     .general-pic-styles-hover(@person);
+}
+
+#jake {
+      @person: "jake";
+       .general-pic-styles(@person);
+}
+#jake:hover {
+	    @person: "jake";
+	     .general-pic-styles-hover(@person);
+}
+
+
+#liam {
+      @person: "liam";
+       .general-pic-styles(@person);
+}
+#liam:hover {
+	    @person: "liam";
+	     .general-pic-styles-hover(@person);
+}
+
+
+#mat {
+     @person: "mat";
+       .general-pic-styles(@person);
+}
+#mat:hover {
+	   @person: "mat";
+	     .general-pic-styles-hover(@person);
+}
+
+#maya {
+      @person: "maya";
+       .general-pic-styles(@person);
+}
+#maya:hover {
+	      @person: "maya";
+	     .general-pic-styles-hover(@person);
+}
+
+#molly {
+       @person: "molly";
+       .general-pic-styles(@person);
+}
+#molly:hover {	
+	      @person: "molly";
+	     .general-pic-styles-hover(@person);
+}
+
+#daniel {
+	@person: "daniel";
+       .general-pic-styles(@person);
+}
+#daniel:hover {
+	      @person: "daniel";
+	     .general-pic-styles-hover(@person);
+}
+
+#felrod-topsix {
+    padding:.2em;
+    display:block;
+    float:left; 
+    width:2em;
+    margin-left: 8px;
+    background-color: #000;
+    font-family: inherit;
+    color:#f5f5f5;
+    text-align:center;
+    font-size: 1.5em;
+    line-height:2em;
+    border: 1px solid rgba(0,0,0,.55);
+    -webkit-border-radius:2em;
+    -moz-border-radius:2em;
+    border-radius:2em;
+    -webkit-box-shadow:0px 0px 5px RGBA(200,200,200,30);
+    box-shadow:0px 0px 5px RGBA(200,200,200,30);
+    -moz-box-shadow:0px 0px 5px RGBA(200,200,200,30);
+}
+
+
+.char0,
+.char1,
+.char2,
+.char3,
+.char4,
+.char5,
+.char6,
+.char7,
+.char8,
+.char9,
+.char10,
+.char11
+{
+    padding:.15em;
+    display:block;
+    float:left; 
+    width:1.2em;
+    margin-left:.2em;
+    background-color: #000;
+    font-family: inherit;
+    color:#f5f5f5;
+    text-align:center;
+    font-size:1.2em;
+    line-height:1.2em;
+    border: 1px solid rgba(0,0,0,.55);
+    -webkit-border-radius:1em;
+    -moz-border-radius:1em;
+    border-radius:1em;
+    -webkit-box-shadow:0px 0px 5px RGBA(200,200,200,30);
+    box-shadow:0px 0px 5px RGBA(200,200,200,30);
+    -moz-box-shadow:0px 0px 5px RGBA(200,200,200,30);
+}
+
+
+
+.char0, .char1,.char2,.char3,.char4,.char5,.char6,.char7,.char8,.char9,.char10,.char11 {
+
+    margin: 1em 0;
+
+    
+    -webkit-transition:background-color .25s linear;
+    -moz-transition:background-color .25s linear;
+    -o-transition:background-color .25s linear;
+    transition:background-color .25s linear;
+    
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+
+    cursor:pointer;
+}
+.char0:hover,.char1:hover,.char2:hover,.char3:hover,.char4:hover,.char5:hover,.char6:hover,.char7:hover,.char8:hover,.char9:hover,.char10:hover,.char11:hover {
+    background-color:rgba(0,0,0,.3);
+
+    margin-top: .5em;
+    margin-bottom: 1.5em;
+}
